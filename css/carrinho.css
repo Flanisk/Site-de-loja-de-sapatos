@@ -80,28 +80,25 @@
     padding: 5px 10px;
 }
 
-.header{
-    background-image: url(../imgs/carosels&afins/pexels-kekremsi-7651067.jpg);
-    height: 60dvh;
-    background-size: cover;
-    background-position: center;
+.card{
+    height: 450px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0px;
+    overflow: hidden;
+    transition: all 0.5s linear;
     box-shadow: 0px 15px 15px #999999;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 50px;
 }
 
-.header h1{
-    color: beige;
-    font-family: "Meow Script", cursive;
-    font-size: 100px;
+.card img{
+    transition: all 0.1s linear;
+    border-radius: 5PX;
 }
-
 
 .secao1{
     background-color: rgb(236, 236, 236);
-    background-position: 60vh;
-    padding: 100px 0px;
+    padding: 50px 0px;
+    height: 100dvh;
 
 }
 
@@ -118,39 +115,4 @@
 .card img{
     transition: all 0.1s linear;
     border-radius: 5PX;
-}
-
-
-.areadoclick{
-    padding-top: 15px;
-    align-items: baseline;
-
-}
-
-.card:hover{
-    box-shadow: 8px #999999;
-}
-
-.card:hover img{
-    scale: 0.9;
-}
-
-.footer{
-    height: auto;
-    background-color: rgb(56, 56, 56);
-    padding: 90px  0px;
-    color: azure;
-}
-
-
-.footer h4 :hover{
-    color: crimson;
-}
-
-.footer p:hover{
-    color: crimson;
-}
-
-.footer i:hover{
-    color: crimson;
 }
