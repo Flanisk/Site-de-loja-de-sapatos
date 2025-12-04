@@ -1,0 +1,156 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+
+
+.container{
+    width: 92%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 100px;
+    margin: 0px 40px;
+    backdrop-filter: blur(70px);
+    margin: auto;
+    background: #e6e6e6;
+    background: linear-gradient(90deg, rgba(230, 230, 230, 0.2) 1%, rgba(237, 237, 237, 0.1) 100%);
+}
+.logo{
+    width: 100px;
+    border-radius: 60%;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.list li{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(10, 10, 10);
+}
+.list li a{
+    color: rgb(20, 20, 20);
+    text-decoration: dashed;
+    transition: 0.5s;
+}
+.list li a:hover{
+    background-color: rgb(187, 187, 187);
+    border-top-left-radius: 0%;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.carrinho{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.carrinho li{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(10, 10, 10);
+}
+
+.carrinho li a{
+    color: rgb(20, 20, 20);
+    text-decoration: dashed;
+    transition: 0.5s;
+}
+
+.carrinho li a:hover{
+    background-color: rgb(187, 187, 187);
+    border-top-left-radius: 0%;
+    transition: 0.5s;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.header{
+    background-image: url(../imgs/carosels&afins/pexels-cottonbro-6328296.jpg);
+    height: 60dvh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 15px 15px #999999;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.header h1{
+    color: beige;
+    font-family: "Meow Script", cursive;
+    font-size: 100px;
+}
+
+
+.secao1{
+    background-color: rgb(236, 236, 236);
+    background-position: 60vh;
+    padding: 100px 0px;
+
+}
+
+.card{
+    height: 450px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    box-shadow: 0px 15px 15px #999999;
+}
+
+.card img{
+    transition: all 0.1s linear;
+    border-radius: 5PX;
+}
+
+
+.areadoclick{
+    padding-top: 15px;
+    align-items: baseline;
+
+}
+
+.card:hover{
+    box-shadow: 8px #999999;
+}
+
+.card:hover img{
+    scale: 0.9;
+}
+
+.footer{
+    height: auto;
+    background-color: rgb(56, 56, 56);
+    padding: 90px  0px;
+    color: azure;
+}
+
+
+.footer h4 :hover{
+    color: crimson;
+}
+
+.footer p:hover{
+    color: crimson;
+}
+
+.footer i:hover{
+    color: crimson;
+}
